@@ -1,15 +1,38 @@
 .container {
   padding: 0 2rem;
+  font-weight: normal;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.container main {
+  padding: 1rem 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 90vh;
+}
+
+.container section {
+  flex: 3;
+  text-align: center;
+}
+
+.container aside {
+  flex: 1;
+  font-size: 14px;
+}
+
+.container button {
+  background: rgb(48 91 124);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.quote {
+  color: #787878;
+  margin-top: 40vh;
 }
 
 .footer {
@@ -19,6 +42,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  min-height: 10vh;
 }
 
 .footer a {
@@ -105,6 +129,10 @@
 
 .logo {
   height: 1em;
+  margin-left: 0.5rem;
+}
+
+.github {
   margin-left: 0.5rem;
 }
 
